@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "344334399916",
+    "project_id": "packmyfood-5a1d1",
+    "storage_bucket": "packmyfood-5a1d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344334399916:android:a222e29873d54700ebe209",
+        "android_client_info": {
+          "package_name": "com.gjam.packmyfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344334399916-a71v1erl2oe3d3vm0uep60vfq0cdl26e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gjam.packmyfood",
+            "certificate_hash": "80fde15e0a118f012f01a4497d3f01ab6ce48149"
+          }
+        },
+        {
+          "client_id": "344334399916-rbn9i8ci0t8t0d7rqo63omq9e5nuravq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gjam.packmyfood",
+            "certificate_hash": "4a34ebe8bf1413e7c2a4f8452350d1fa1c13a034"
+          }
+        },
+        {
+          "client_id": "344334399916-ttd70c4ms6b90is0f4v73l3jfc3l37mh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHx6opkV6FbzDmmkIn5y1I4DDWeCrTAu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344334399916-ttd70c4ms6b90is0f4v73l3jfc3l37mh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
