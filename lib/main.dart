@@ -1,11 +1,14 @@
 
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:flutter/services.dart';
 
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 void main() {
+  SystemChrome.setEnabledSystemUIOverlays([SystemUiOverlay.bottom]);
+
   runApp(MyApp());
+
 }
 
 class MyApp extends StatelessWidget {
@@ -38,6 +41,8 @@ class _MyHomePageState extends State<MyHomePage> {
             )
         )
     );
+    SystemChrome.setEnabledSystemUIOverlays([SystemUiOverlay.bottom]);
+
   }
   @override
   Widget build(BuildContext context) {
@@ -51,12 +56,14 @@ class SecondScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(routes: {
+
       "/": (_) => new WebviewScaffold(
         url: "http://packmyfood.in/",
-        //        appBar: new AppBar(
-        //          title: new Text("WebView"),
-        //        ),// AppBar
+
+        // AppBar
       ) // WebviewScaffold
     });
+
   }
+
 }
